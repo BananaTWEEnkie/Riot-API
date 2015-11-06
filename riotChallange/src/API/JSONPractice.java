@@ -53,8 +53,8 @@ public class JSONPractice {
         JSONPractice http = new JSONPractice();
 
         System.out.println("Testing 1 - Send Http GET request");
-        //http.sendGet();
         http.getMatch();
+        http.createData();
 
     }
     /*
@@ -76,7 +76,7 @@ public class JSONPractice {
      3504, 3708, 3716,
      3720, 3724};
 
-     //String url = "https://na.api.pvp.net/api/lol/na/v2.2/match/1852561658?api_key=222fb254-63ca-4338-9b7d-397694c1e099";
+     //String url = "https://na.api.pvp.net/api/lol/na/v2.2/match/1852561658?api_key=" + api_key;
 
      URL obj = new URL(url);
      HttpURLConnection con = (HttpURLConnection) obj.openConnection();
@@ -178,7 +178,7 @@ public class JSONPractice {
 
                     for (int i = 0; i < jsonFileSize; i++) {
 
-                        url = "https://" + region + ".api.pvp.net/api/lol/" + region + "/v2.2/match/" + matchId.get(i) + "?api_key=222fb254-63ca-4338-9b7d-397694c1e099";
+                        url = "https://" + region + ".api.pvp.net/api/lol/" + region + "/v2.2/match/" + matchId.get(i) + "?api_key=" + api_key;
 
                         System.out.println(url);
                         
