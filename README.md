@@ -1,6 +1,6 @@
 # Riot-API
 
-Found the Riot API Challange 2.0 as it was about to end, but wanted to use it as a learning tool even if I didn't finish by the deadline.
+Found the Riot Games API Challenge 2.0 as it was about to end, but wanted to use it as a learning tool even if I didn't finish by the deadline.
 
 ### Description
 
